@@ -1,0 +1,150 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+body{
+  width: 100%;
+  height: auto;
+  background-color: whitesmoke;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*==========================header====================================== */
+header{
+  width: 100%;
+  height: auto;
+  background-color: red;
+  color: white;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 18px 0px;
+}
+/* header-start */
+.header-start{
+  display: flex;
+}
+.header-start.logo{
+  margin-right:8px;
+}
+.header-start.local img{
+
+  width: 30px;
+}
+.content p,
+.content span
+{
+  margin: 0;
+}
+/* header-end */
+.header-end{
+  display: flex; 
+  align-items: center; 
+}
+.search-group{
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin-right: 5px;
+}
+.search-group input{
+  min-width: 250px;
+  height: auto;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.search-group button{
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.header-end.navigation{
+  margin: 0px 5px;
+  width: auto;
+}
+.header-end.nav-item{
+  width: auto;
+  margin-right: 18px;
+}
+.header-end.content p{
+  display: block;
+  margin: 0;
+}
+.header-end.nav-item i{
+  color: white;
+  display: block;
+}
+.nav-item{
+  margin-right: 12px;
+}
+/* =======================navigation=======================  */
+.nav-list{
+  width: 100%;
+  padding-bottom: 5px;
+}
+.nav-item{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin: 0;
+}
+.nav-item.category{
+  background-color: wheat;
+}
+.bi{
+  font-size: 1.8rem;
+  color: red;
+}
+
+/* ============== main ========================== */
+main{
+  background-color: whitesmoke;
+}
+/* banner */
+.banner{
+  margin-top: 4px;
+  width: 100%;
+  display: flex;
+}
+.banner-right{
+  width: 50%;
+  height: 350px;
+}
+.banner-right img{
+  width: 100%;
+  height: 50%;
+  object-fit: fill;
+}
+/* product */
+.product-list{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 8px;
+}
+.card{
+  padding: 24px 14px;
+}
+
+.discount{
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  padding: 0px 2px;
+  margin: 0px 12px;
+}
