@@ -1,0 +1,11 @@
+.todo-header{
+    width: auto;
+    height: auto;
+}
+.todo-name{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: white;
+    margin: 0;
+}

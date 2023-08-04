@@ -1,0 +1,54 @@
+
+.TodoNavTab{
+    width: 100%;
+}
+.group-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between ;
+}
+.nav-tabs{
+    --bs-nav-tabs-border-width: none;
+    --bs-nav-tabs-border-radius: none;
+}
+.nav-link{
+    height: 40px;
+    background-color: #9e393b;
+    border-radius: 0px ;
+    color: #651914;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    height: 39px;
+    background-color: #f45456;
+    color: white;
+    border: 1px solid white;
+    outline: none;
+}
+.nav-link:focus, .nav-link:hover {
+    color: white;
+    outline: none;
+}
+.btn-add{
+    background-color: #3a3230;
+    color: white;
+    font-size: 14px;
+}
+.group-check{
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 4px;
+}
+.group-check>button{
+    padding:0;
+    font-size: 12px;
+    border-radius: 0;
+    background-color: white;
+    color: black;
+}
+.tab-content{
+    margin: 18px 0;
+}
+input[type="checkbox"]:checked {
+    outline: none;
+}
