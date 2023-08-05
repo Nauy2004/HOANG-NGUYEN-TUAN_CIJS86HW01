@@ -1,0 +1,37 @@
+nav{
+    padding: 0 40px;
+    margin: 0 100px;
+}
+.nav-list {
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.nav-list .nav-item {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 0;
+    padding: 0px 4px;
+    background-color: #ffffff;
+}
+.nav-item.category {
+    background-color: #413b49;
+}
+.nav-item.category>i,
+.nav-item.category>span
+{
+    color: white;
+}
+.nav-item i {
+    font-size: 1.8rem;
+    color: red;
+    margin-right: 6px;
+}
+.hr-vertical{
+    display: inline-flex;
+    padding: 0 1rem;
+    color: rgba(0,0,0,.2);
+}

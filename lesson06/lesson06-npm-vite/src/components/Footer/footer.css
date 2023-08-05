@@ -1,0 +1,9 @@
+footer{
+    text-align: center;
+    background-color: white;
+    font: 0.7em sans-serif;
+    font-weight: 500;
+    padding: 20px;
+    line-height: 18px;
+    border-top: 1px solid #f5f6f8;
+}

@@ -1,0 +1,52 @@
+
+.card-body p{
+    margin: 0;
+}
+.text-red {
+    color: red;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.text-500 {
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.card {
+    padding: 24px 14px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.discount {
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    padding: 0px 2px;
+    margin: 0px 12px;
+}
+
+.card-body {
+    padding-right: 0;
+}
+
+/* boxModalDetail */
+.col-md-4 .card-img {
+    object-fit: fill;
+}
+
+.list-card-link a {
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    font-size: 0.9rem;
+}
+.addToCompare{
+    background-color: transparent;
+    color: #6194ca;
+    padding: 0;
+    text-align: left;
+    padding: 0 1rem;
+}

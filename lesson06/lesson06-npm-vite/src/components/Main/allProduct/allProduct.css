@@ -1,0 +1,25 @@
+.menu{
+    margin: 20px 0px;
+    display: flex;
+}
+.menu-item{
+    margin-right: 8px;
+    padding: 0px 4px;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+.menu-item>i{
+    font-size: 1.2rem;
+}
+.menu-item button{
+    padding: 4px;
+    background-color: transparent;
+    color: black;
+    outline: none;
+    transition: none;
+}
+.menu-item button:hover,
+.menu-item button:focus
+{
+    border: none;
+}
