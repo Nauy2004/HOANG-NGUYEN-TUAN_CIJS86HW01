@@ -1,0 +1,7 @@
+.homePage{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    margin: 0;
+}
