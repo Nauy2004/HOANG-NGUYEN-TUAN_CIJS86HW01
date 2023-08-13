@@ -1,0 +1,13 @@
+.nav button{
+    background-color: transparent;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+.btn.btn-outline-light :any-link{
+    color: white;
+}
+.btn.btn-warning a{
+    color: black;
+}
